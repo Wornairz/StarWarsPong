@@ -1,0 +1,2 @@
+netsh advfirewall firewall add rule name="My_Rule_Name_Incoming" dir=in action=allow protocol=TCP localport=6789
+netsh advfirewall firewall add rule name="My_Rule_Name_Outgoing" dir=out action=allow protocol=TCP localport=6789
